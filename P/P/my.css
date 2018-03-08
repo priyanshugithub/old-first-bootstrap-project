@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+.logo {
+	 width:116px;
+	 height:115px;
+}
+.heading1 {
+	font-family: 'Arial';
+	font-size: 40px;
+	}
+.heading2 {
+	font-family: 'ABeeZee';
+	}
+hr {
+	display: block;
+    background-color: black;/* Modern Browsers */
+    padding: 0px;
+    margin: 0px;
+    border-width: 3px;
+	}
+.rowfirst{
+	background-color:#80dfff;
+}
+.rowsecond{
+	background-color:#ffcc80;
+}
+.tag{
+      width: 70%;
+      margin: auto;
+  }
+.setpara{
+	width:100%;
+	height:100%;
+	overflow:auto;
+}
+.portfolio{
+	margin-top: 50px;
+} 
+.portfolio img{
+	width: 430px;
+	height: 250px;
+} 
+.portfoliotext{
+	text-align:center;
+	font-family: 'Pacifico', cursive;
+}
+.learntext{
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+}
+
+.image_dis {
+	  
+	 display: block;
+    margin: auto;
+    width: 50%;
+}
+.cover{
+    display: block;
+    margin: 0 auto;
+	}
+.third{
+	background-image: url('black.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.contact{
+	text-align: center;
+	font-size: 40px;
+	font-family:'lobster';
+}
+.animated {
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    transition: height 0.2s;
+}
+
+.stars
+{
+    margin: 20px 0;
+    font-size: 24px;
+    color: #d17581;
+}
+.container-outer
+{
+	overflow: scroll;
+	width: 960px; height: 640px;
+}
+#middle{
+	text-align: center;
+	color: black;
+	font-family: 'Inconsolata', monospace;
+}
+.testimonials{
+	margin-top: 50px;
+	background-image: url(brown.jpg);
+}
+.testimonials cite img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.testimonials p,h3{
+	color: white;
+}
+div{
+	text-align: justify;
+}
